@@ -58,9 +58,8 @@ box-shadow: 0 4px 15px rgba(255, 77, 77, 0.4);
 </head>
 <body>
 
-<!-- Cute Bear GIF -->
 <img id="gif" src="https://media.tenor.com/EF-O6msoZ6YAAAAi/tkthao219-bubududu.gif" alt="Cute Bear">
-<h1 id="question">Will you go out with me? Sanskruti 🥺</h1>
+<h1 id="question">Sanskrutiiii, will you go out with me? 🥺</h1>
 
 <div class="buttons">
 <button id="yesBtn" onclick="sayYes()">Yes</button>
@@ -105,8 +104,9 @@ yesBtn.style.fontSize = `${yesFontSize}rem`;
 
 function sayYes() {
 // Change the text and GIF on success
-document.getElementById('question').innerText = "Yay! I knew you'd say Yes! ❤️";
-document.getElementById('gif').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif";
+document.getElementById('question').innerText = "Yay! I knew you'd say Yes, Sanskrutiiii! ❤️";
+// Now uses a dancing bears GIF instead of kissing
+document.getElementById('gif').src = "https://media.tenor.com/aKFaZBrZhpYAAAAi/bubu-dudu-bubu.gif";
 
 // Hide the buttons
 document.querySelector('.buttons').style.display = 'none';
